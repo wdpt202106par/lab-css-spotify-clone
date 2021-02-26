@@ -8,11 +8,30 @@ White: #FFF
 */
 
 nav {
-    position: fixed; 
-    width: 50px;
+
+    padding: 0 32px;
+
 }
+
+nav>ul {
+
+    list-style: none;
+    display: flex;
+    font-size: 1.1em;
+}
+
+
+ul>li {
+    padding-right: 16px;
+}
+
+.flexelement {
+    display: flex;
+    justify-content: space-between;
+
+}
+
 
 .logo {
-    width: 5px;
+    width: 150px;
 }
-
