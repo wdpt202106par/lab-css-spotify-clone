@@ -6,3 +6,198 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+html,
+body {
+    margin:0;
+    padding:0;
+}
+
+
+#spotify-logo {
+    width: 12%;
+    height: auto;
+}
+
+
+
+#image-concert {
+    width: 100%;
+    height: auto;
+}
+
+
+
+nav {
+    position: fixed;
+    margin-top: 0 auto auto 5em;
+    background-color: white;
+}
+
+
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    float: right;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+h1 {
+    color: red;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    
+}
+
+
+
+#p1 {
+    color: red;
+    font-size:30px;
+    width: 50%;
+    position: relative;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+
+
+.troisLogos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+}
+
+
+
+.troisLogos h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    padding-bottom: 10em;
+}
+
+
+
+.troisLogos img {
+    width: 7em;
+    height: auto;
+}
+
+
+
+.troisLogos h3 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00B172;
+}
+
+
+
+.troisLogos p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+
+.troisLogos > div  {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    /* position: relative;
+    right: 100px; */
+}
+
+
+
+.kanye h3 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+
+.kanye h2 {
+    text-align: left;
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    color: white;
+}
+
+
+
+.kanye p  {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+
+aside {
+    position: absolute;
+    right: 100px;
+}
+
+
+
+.kanye {
+    background-color: #00B172;
+}
+
+
+
+#icon-white {
+    width: 5%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    bottom: 450px;
+
+}
+
+
+
+#appli {
+    width: 15%;
+    height: auto;
+    position: sticky;
+    left: 60%;
+    bottom: 500px;
+}
+
+
+
+#box {
+    width: 20%;
+    height: auto;
+}
