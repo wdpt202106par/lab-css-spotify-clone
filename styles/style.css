@@ -1,8 +1,127 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-family: Roboto;
+    font-size: 16px;
+}
+header{
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 950px;
+    color: white;
+}
+nav{
+    position: fixed; 
+    top:0;   
+    width:100%;
+    height: 90px;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: white;
+}
+nav > img {
+    height: 60px;
+    margin:20px 0 20px 20px;
+}
+ul {
+    padding: 0;    
+    margin: 20px 20px 20px;
+    line-height:60px;
+    display: flex;
+    justify-content: space-between;
+}
+ul > li {
+    list-style: none;
+    margin:10px;    
+    font-size: 1.5em;
+}
+h1{
+   padding-top: 325px;
+   font-size: 4.5em;
+   text-align: center;
+}
+header > article{
+    text-align: center;
+    font-size: 1.7em;
+    width: 50%;
+    margin:auto;
+}
+#section-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+h2{    
+    border-bottom: 3px solid #1DB954;    
+    text-align: center;    
+    font-size: 2.3em;
+}
+#section-content-container{
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+.art-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;    
+}
+.art-container > img {
+    height: 80px;
+}
+h3{
+    color:  #1DB954;
+    font-size: 1.6em;
+}
+.art-container > p {
+    width: 65%;
+    text-align: center;
+    font-size: 1.3em;
+}
+#section-bottom{
+    background-color:#1DB954 ;
+    color: white;
+    margin:0 10px 0 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+#section-bottom-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+h4{
+    border-bottom: 3px solid white;
+    font-size: 2em;
+    margin:35px 0 25px;
+}
+#section-bottom-container > div > p{
+    width: 220px;
+    font-size: 0.9em;
+}
+h5{
+    font-size: 1.7em;
+    margin:20px 0;
+}
+#icon{
+    position: absolute;
+    top: 45%;
+    left:45%;
+    height: 80px;
+}
+#app{
+    height: 420px;
+}
