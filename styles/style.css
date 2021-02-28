@@ -4,5 +4,137 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+*{
+    margin-left: 0;
+    margin-right:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    }
+nav img {
+    width: 200px;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+nav li {
+    list-style-type: none;
+    font-size: em;
+    margin: 20px;
+}
+header {
+    height: 100vh;
+    position: relative;
+    background:url("../images/landing.jpg") center no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 0px;
+
+}
+header h1 {
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3.5em;
+}
+header p {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top:30px;
+    font-size:1.2em;
+    line-height: 28px;
+    padding-top: 40px;
+    text-align: center;
+}
+#page2 {
+    height: 50vh;
+}
+#page2 h2{
+    text-align: center;
+    font-size: 2em;
+    border-bottom:2px solid green;
+    padding-bottom: 3px;
+    width:300px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 60px;
+
+}
+#page2 section {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    padding-bottom: 50px;
+}
+#page2 div {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column ;
+}
+
+#page2 div h3{
+    color:green;
+    text-align:center;
+  
+}
+#page2 div img{
+    width:100px;
+    margin-left:auto;
+    margin-right: auto;
+}
+#page2 p{
+    text-align:center;
+}
+#page3 {
+    background-color: green;
+    color: white;
+    margin: 75px;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 28px;
+}
+#page3 h2 {
+    border-bottom:2px solid white;
+    padding-bottom: 3px;
+    width: 440px;
+    text-align: left;
+    margin-bottom: 50px;
+    font-size: 2em;
+}
+#page3 .small-logo{
+    width: 140px;
+    margin-left: 20px;
+}
+#page3 .kanye {
+    width:70%;
+    margin-left: 135px;
+}
+
+#page3 p {
+    font-size: 1.3em;
+}
+#page3 h3 {
+    font-size: 1.5em;
+}
