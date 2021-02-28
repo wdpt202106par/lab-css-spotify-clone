@@ -52,7 +52,7 @@ header p {
     transform: translate(-50%,-50%);
 }
 #page2 {
-    height: 100vh;
+    height: 50vh;
 }
 #page2 h2{
     text-align: center;
@@ -60,7 +60,10 @@ header p {
     border-bottom:2px solid green;
     padding-bottom: 3px;
     width:300px;
-    margin-left:450px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 60px;
+
 }
 #page2 section {
     display:flex;
@@ -95,6 +98,36 @@ header p {
 #page2 p{
     text-align:center;
 }
-#page2 div{
+#page3 {
+    background-color: green;
+    color: white;
+    margin: 75px;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 28px;
+}
+#page3 h2 {
+    border-bottom:2px solid white;
+    padding-bottom: 3px;
+    width: 440px;
+    text-align: left;
+    margin-bottom: 50px;
+    font-size: 2em;
+}
+#page3 .small-logo{
+    width: 140px;
+    margin-left: 20px;
+}
+#page3 .kanye {
+    width:70%;
+    margin-left: 135px;
+}
 
+#page3 p {
+    font-size: 1.3em;
+}
+#page3 h3 {
+    font-size: 1.5em;
 }
